@@ -51,7 +51,24 @@ A literal is a data itself which values are determined by the literals itself.
 >>> print ("My favorite color is" + favorite_color)
     My favorite color is blue
 ```
+#### String Operations:
+- we can use ```+``` in order to ```concatenate``` two strings.
+- we can use ```*``` in order to repeat a string a several amount of times.
+- With the ```str``` function, you can use type-cast a number into a string.
+```bash
+>>> cost_of_apple = 2
+>>> amount_of_apples = input("How many apples do you want ?")
+    How many apple do you want ? 10
+>>> total_sum = cost_of_apple * int(amount_of_apples)
+>>> print("you have to pay: " + str(total_sum))
+    you have to pay: 20
+```
+#### Comparison Operators
+- ```Equal (==)```
+- ```Not Equal (!=)```
+- ```Greater than (>)```
+- ```Greater than or equal to (>=)```
+- ```Less than (<)```
+- ```Less than or equal to  (<=)```
 
-
-
-
+- These operators returns ths boolen values such as True or False as the result. 
