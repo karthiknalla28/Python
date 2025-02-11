@@ -71,4 +71,61 @@ A literal is a data itself which values are determined by the literals itself.
 - ```Less than (<)```
 - ```Less than or equal to  (<=)```
 
-- These operators returns ths boolen values such as True or False as the result. 
+- These operators returns ths boolen values such as True or False as the result.
+
+#### Conditonal Statements :
+```if-else``` condition :
+```bash
+if condition 
+   print("This condition is true")
+else
+   print("This condition is false")
+```
+```elif``` condition :
+```bash
+if condition
+   print ("This condition is true")
+elif condition
+   print ("Only this condition will be true")
+else
+   print( "This condition is true")
+```
+##### Example :
+```bash
+x = 0
+a = 6
+b = 6
+
+if a > 0:  # (1) Check if a is greater than 0
+    if b < 0:  # (2) Check if b is less than 0
+        x = x + 6  
+    elif a > 6:  # (3) Check if a is greater than 6
+        x = x + 5
+    else:  # (4) If neither condition (b < 0 or a > 6) is met
+        x = x + 4
+else:  # (5) If a is NOT greater than 0
+    x = x + 3
+
+print(x)  # (6) Output the final value of x
+```
+Things need to be observed here :
+- a = 6 > 0, we enter the first if block.
+- Since b = 6 is not negative, we skip the if b < 0 condition.
+- Since a = 6 is not greater than 6, we skip the elif a > 6 condition.
+- We enter the else block, adding 4 to x.
+- The final printed value of x is 4.
+
+#### Note :
+- In Python, the following values are considered falsy:
+  - 0
+  - None
+  - False
+  - '' (empty string)
+  - [] (empty list)
+  - {} (empty dictionary)
+  - () (empty tuple)
+- Everything else is considered truthy, including:
+  - Non-zero numbers (5, 10)
+  - Non-empty tuples ((5,10))
+  - Non-empty lists ([5,10])
+  - Non-empty strings ('hello')
