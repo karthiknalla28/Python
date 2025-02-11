@@ -36,9 +36,21 @@ A literal is a data itself which values are determined by the literals itself.
 - Variables allow to save values
 - A variable has a valid name (letters, digits, underscore, not a reserved keyword)
 - Python is dynamically typed: variables can be redeclared
-- We can use shotcut operators in order to cleanly redeclare a variable. 
-
-
+- We can use shortcut operators in order to cleanly redeclare a variable. 
+#### ```input()```
+- Prompts the user to input some data or value in the console when we try to execute
+```bash
+>>> input("How old are you ?")
+    How old are you ? 22
+  ```
+- Always returns a string
+- A program that doesn't have any ```input()``` funtion is called as ```deaf program```
+```bash
+>>> favorite_color = input("What is your favorite color ?")
+    what is your favorite color ? blue
+>>> print ("My favorite color is" + favorite_color)
+    My favorite color is blue
+```
 
 
 
