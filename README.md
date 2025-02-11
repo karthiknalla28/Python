@@ -129,3 +129,9 @@ Things need to be observed here :
   - Non-empty tuples ((5,10))
   - Non-empty lists ([5,10])
   - Non-empty strings ('hello')
+#### For loop :
+- ```if/else``` statements allow us to conditionally run code
+- ```while``` loop makes it possible to repetitively execute code based on a certain code
+- We can execute code for each item in a sequence with a ```for...in``` loop.
+
+  
