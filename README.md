@@ -153,4 +153,8 @@ while condition:
 ```
 #### Operators :
 ![image](https://github.com/user-attachments/assets/1676d61a-0469-4a7e-97be-509135db7e6f)
+#### Operators:
+- Logical operators ```and not``` and ```or``` return boolean values based on the passes values
+- Bitwise operators ```& (Conjunction), | (Disjunction), ^ (Exclusive) and ~ (Negation) ``` allows us to manipulate single bits of     data, return ```0 or 1``` based on the value of the bits that are used.
+- Bit shifting can be done with the ```<< (Bit left shifting) and >> (Bit right shifting) ``` operators
 
