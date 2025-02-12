@@ -150,4 +150,7 @@ while condition:
         break  # Stops the loop
     elif different_condition:
         continue  # Skips the rest of the iteration
-``` 
+```
+#### Operators :
+![image](https://github.com/user-attachments/assets/1676d61a-0469-4a7e-97be-509135db7e6f)
+
