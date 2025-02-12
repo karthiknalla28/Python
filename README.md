@@ -133,5 +133,21 @@ Things need to be observed here :
 - ```if/else``` statements allow us to conditionally run code
 - ```while``` loop makes it possible to repetitively execute code based on a certain code
 - We can execute code for each item in a sequence with a ```for...in``` loop.
-
-  
+#### when writing loops (```for``` and ```while```) with conditions, the basic structure follows this pattern:
+- ```for``` loop with conditions
+```bash
+for variable in sequence:
+    if condition:  # Check condition
+        # Do something
+    else:
+        # Do something else
+```
+- ```while``` loop with conditions
+```bash
+while condition:
+    # Code block
+    if another_condition:
+        break  # Stops the loop
+    elif different_condition:
+        continue  # Skips the rest of the iteration
+``` 
