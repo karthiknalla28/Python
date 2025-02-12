@@ -156,5 +156,16 @@ while condition:
 #### Operators:
 - Logical operators ```and not``` and ```or``` return boolean values based on the passes values
 - Bitwise operators ```& (Conjunction), | (Disjunction), ^ (Exclusive) and ~ (Negation) ``` allows us to manipulate single bits of     data, return ```0 or 1``` based on the value of the bits that are used.
-- Bit shifting can be done with the ```<< (Bit left shifting) and >> (Bit right shifting) ``` operators
+- Bit shifting can be done with the ```<< (Bit left shifting) and >> (Bit right shifting) ``` operators.
+#### List :
 
+```bash
+                   0       1          3
+>>> countries = ["USA", "India", "Cannada"]
+                  -3       -2       -1
+```
+##### Python list slicing :
+```list[start:stop:step:]```
+- start : The index where slicing begins [default by 0]
+- stop : The index where slicing stops
+- step : The interval between elements [default is 1]
